@@ -2,6 +2,13 @@
 body {
     font: 400 16px/25px "Source Sans", Arial, sans-serif;
 }
+section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.bg-second {
+    background-color: #f2f5f7;
+}
 ul {
     margin: 0;
     padding: 0;
@@ -17,4 +24,177 @@ li {
 }
 .text-right {
     text-align: right;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+h1,
+h2 {
+    font-weight: 700;
+    font-family: "Lato";
+}
+h1 {
+    font-size: 78px;
+    line-height: 88px;
+    margin-bottom: 40px;
+    color: #fff;
+}
+.banner h3 {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    color: #a3b1bf;
+    margin-bottom: 40px;
+}
+h2 {
+    font-size: 44px;
+    line-height: 54px;
+    margin-bottom: 30px;
+    color: #506a85;
+}
+h3 {
+    font-size: 20px;
+    line-height: 30px;
+    color: #506a85;
+}
+.section-subtitle {
+    font-size: 22px;
+    line-height: 34px;
+    color: #73879c;
+    margin-bottom: 40px;
+}
+.about span.fa:before {
+    font-size: 56px;
+    color: #00bc9c;
+}
+.top-nav a {
+    font-size: 15px;
+    line-height: 1em;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+/* Header */
+.contact-info {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.contacts-list {
+    float: left;
+    font-size: 12px;
+    color: #506a85;
+}
+.contacts-list li:first-of-type {
+    padding-right: 15px;
+}
+.contacts-list span:before {
+    padding-right: 6px;
+    font-size: 18px;
+}
+.social-list {
+    float: right;
+}
+.social-list li {
+    padding-left: 20px;
+}
+.social-list li:first-of-type {
+    padding-left: 0;
+}
+.social-list a{
+    color: #506a85;
+    font-size: 18px;
+    text-decoration: none;
+}
+.header-logo {
+    width: 161px;
+    height: 40px;
+    background-image: url("../images/logo.png");
+    float: left;
+    margin: 20px 0;
+    
+}
+.icon-menu {
+    float: right;
+    font-size: 20px;
+    margin-top: 30px;
+}
+.icon-search {
+    font-size: 20px;
+    line-height: 1em;
+    margin-top: 30px;
+    float: right;
+}
+.top-nav {
+    display: inline-block;
+    margin-top: 32px;
+}
+.top-nav li {
+    padding-left: 20px;
+    line-height: 1em;
+}
+.top-nav li:first-of-type {
+    padding-left: 0;
+}
+.top-nav {
+    display: none;
+}
+.icon-search {
+    display: none;
+}
+@media (min-width: 992px) {
+    .top-nav {
+        display: inline-block;
+    }
+    .icon-search {
+        display: block;
+    }
+    .icon-menu {
+        display: none;
+    }
+}
+/* Banner */
+.banner {
+    background-image: url("../images/bg-00.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 160px;
+}
+/* About */
+
+/* Works */
+
+/* Get in touch */
+
+/* Footer */
+.footer {
+    background-color: #2f4052;
+}
+.copyright {
+    background-color: #283645;
+}
+/* Buttons */
+.btn {
+    display: inline-block;
+    line-height: 1em;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 4px;
+    
+}
+.btn:hover {
+    text-decoration: none;
+    box-shadow: none;
+    color: #fff;
+}
+.btn-large {
+    padding: 25px 60px;
+}
+.btn-act {
+    background-color: #00bc9c;
+    box-shadow: inset 0px -2px 0px 0px rgba(0, 0, 0, 0.15);
 }
