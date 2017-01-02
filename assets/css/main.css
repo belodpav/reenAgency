@@ -1,0 +1,17 @@
+/* Basic */
+body {
+    font: 400 16px/25px "Source Sans", Arial, sans-serif;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+li {
+    display: inline-block;
+}
+.text-center {
+    text-align: center;
+}
+.text-left {
+    text-align: left;
+}
